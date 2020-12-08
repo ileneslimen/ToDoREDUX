@@ -1,4 +1,4 @@
- import { ADDTASK, REMOVETASK, DONETASK, EDITTASK } from "../Actions/ActionTypes";
+ import { ADDTASK, REMOVETASK, DONETASK, EDITTASK, FILTER } from "../Actions/ActionTypes";
 
 const initialState ={
  
@@ -26,6 +26,8 @@ return {
     todo.id === action.payload.id ? action.payload : todo
   ),
 };   
+case FILTER:
+  return { ...state, Filtered: action.payload };
 
 default: return state
 

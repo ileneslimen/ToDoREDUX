@@ -38,9 +38,11 @@ flex-direction: column;
       font-size:20px;
   
   }
-  .filter {display : flex;
-  margin:auto;
-width:50%}
+  .filter {    display: flex;
+    margin-left: 450px;
+    width: 19%;
+    align-items: center;
+    justify-content: space-evenly;}
   .button {width:100px}
   .modal-content{width:fit-content}
   .modal-dialog{width: 10%}

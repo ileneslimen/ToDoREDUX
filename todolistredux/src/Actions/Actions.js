@@ -26,9 +26,9 @@ export const EditTask = (editedTask) => ({
     payload: editedTask,
  
   });
-export const Filtered= id =>{
+export const Filtered= str =>{
     return {
         type:FILTER,
-        payload:id
+        payload:str
     }
 }

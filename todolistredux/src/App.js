@@ -2,12 +2,14 @@ import './App.css';
 import AddTask from './Components/AddTask';
 import ToDoList from './Components/ToDoList';
 
-
+import Filter from './Components/Filter'
 
 function App() {
   return (
     <div className="App">
+      
        <AddTask/>
+       <Filter/>
   <ToDoList/>
  
   
